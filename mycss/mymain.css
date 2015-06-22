@@ -1,0 +1,65 @@
+.vcenter {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+
+html body {
+  height: 100vh; }
+html #calculator {
+  width: 48vmin;
+  height: 84vmin;
+  background-color: black;
+  color: black;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 200; }
+  html #calculator #result {
+    background-color: #191919;
+    height: 16vmin;
+    text-align: right;
+    line-height: 16vmin;
+    font-size: 8vmin;
+    padding: 0 2vmin;
+    color: #b74e14; }
+  html #calculator #preview {
+    background-color: #191919;
+    height: 8vmin;
+    text-align: right;
+    line-height: 8vmin;
+    font-size: 3vmin;
+    padding: 0 2vmin;
+    color: #b74e14; }
+  html #calculator .key {
+    padding: 0;
+    height: 12vmin;
+    background-color: #7F8C8D;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 12vmin;
+    font-size: 3vmin;
+    border: 1px solid #666666; }
+    html #calculator .key#key-PLUS {
+      height: 24vmin;
+      line-height: 24vmin; }
+    html #calculator .key:hover {
+      background-color: orange; }
+    html #calculator .key:active, html #calculator .key.active {
+      background-color: #f2f2f2;
+      border-radius: 50px; }
+  html #calculator .key-group {
+    padding: 0; }
+  html #calculator #key-7, html #calculator #key-8, html #calculator #key-9, html #calculator #key-4, html #calculator #key-5, html #calculator #key-6, html #calculator #key-1, html #calculator #key-2, html #calculator #key-3, html #calculator #key-DOT, html #calculator #key-0 {
+    background-color: #191919;
+    color: white; }
+    html #calculator #key-7:hover, html #calculator #key-8:hover, html #calculator #key-9:hover, html #calculator #key-4:hover, html #calculator #key-5:hover, html #calculator #key-6:hover, html #calculator #key-1:hover, html #calculator #key-2:hover, html #calculator #key-3:hover, html #calculator #key-DOT:hover, html #calculator #key-0:hover {
+      background-color: #666666; }
+  html #calculator #key-EQL {
+    background-color: #b74e14; }
+    html #calculator #key-EQL:hover {
+      background-color: #E56119; }
+  html #calculator #key-AC, html #calculator #key-PLUS, html #calculator #key-DEL, html #calculator #key-MINUS, html #calculator #key-MULTIPLY, html #calculator #key-DIVISION {
+    background-color: #000000;
+    color: white; }
+    html #calculator #key-AC:hover, html #calculator #key-PLUS:hover, html #calculator #key-DEL:hover, html #calculator #key-MINUS:hover, html #calculator #key-MULTIPLY:hover, html #calculator #key-DIVISION:hover {
+      background-color: #666666; }
+
+/*# sourceMappingURL=mymain.css.map */

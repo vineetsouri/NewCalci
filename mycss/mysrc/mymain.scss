@@ -1,0 +1,91 @@
+.vcenter {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+html {
+  //background-color: green;
+  
+  body {
+    height: 100vh;
+  }
+  
+  #calculator {
+    width: 48vmin;
+    height: 84vmin;
+    background-color: black;
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 200;
+    
+    #result {
+      background-color: #191919;
+      height: 16vmin;
+      text-align: right;
+      line-height: 16vmin;
+      font-size: 8vmin;
+      padding: 0 2vmin;
+      color: darken(#E56119,10%);
+    }
+    
+    #preview {
+      background-color: #191919;
+      height:8vmin;
+      text-align: right;
+      line-height: 8vmin;
+      font-size: 3vmin;
+      padding: 0 2vmin;
+      color: darken(#E56119,10%);
+    }
+    
+    .key {
+      padding: 0;
+      height: 12vmin;
+      background-color: #7F8C8D;
+      box-sizing: border-box;
+      text-align: center;
+      line-height: 12vmin;
+      font-size: 3vmin;
+      border: 1px solid #666666;//background lines
+
+      &#key-PLUS {
+        height: 24vmin;
+        line-height: 24vmin;
+      }
+      
+      &:hover {
+        background-color: orange;
+      }
+      
+      &:active, &.active {
+        background-color: darken(white, 5%);
+          border-radius: 50px;
+      }
+    }
+    
+    .key-group {
+      padding: 0;
+    }
+    #key-7,#key-8,#key-9,#key-4,#key-5,#key-6,#key-1,#key-2,#key-3,#key-DOT,#key-0{
+      background-color: #191919;//key colors
+      color: white;
+      &:hover {
+        background-color: #666666;
+      }
+    }
+    #key-EQL{
+      background-color: darken(#E56119,10%);
+      &:hover{
+        background-color: #E56119
+      }
+    }
+    #key-AC,#key-PLUS,#key-DEL,#key-MINUS,#key-MULTIPLY,#key-DIVISION{
+      background-color: #000000;
+      color: white;
+      &:hover {
+        background-color: #666666//lighter(#000000,100%);
+      }
+    }
+  }
+}
