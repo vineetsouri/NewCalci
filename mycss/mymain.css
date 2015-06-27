@@ -4,16 +4,16 @@
   transform: translateY(-50%); }
 
 html body {
-  height: 100vh; }
+  height: 100vh;
+  background-image: url("../images/bg_image.jpg"); }
 html #calculator {
   width: 48vmin;
   height: 84vmin;
-  background-color: black;
+  background-color: #2D2D2D;
   color: black;
-  font-family: 'Roboto Slab', serif;
   font-weight: 200; }
   html #calculator #result {
-    background-color: #191919;
+    background-color: #0C0C0C;
     height: 16vmin;
     text-align: right;
     line-height: 16vmin;
@@ -21,7 +21,7 @@ html #calculator {
     padding: 0 2vmin;
     color: #b74e14; }
   html #calculator #preview {
-    background-color: #191919;
+    background-color: #0C0C0C;
     height: 8vmin;
     text-align: right;
     line-height: 8vmin;
@@ -48,16 +48,16 @@ html #calculator {
   html #calculator .key-group {
     padding: 0; }
   html #calculator #key-7, html #calculator #key-8, html #calculator #key-9, html #calculator #key-4, html #calculator #key-5, html #calculator #key-6, html #calculator #key-1, html #calculator #key-2, html #calculator #key-3, html #calculator #key-DOT, html #calculator #key-0 {
-    background-color: #191919;
+    background-color: #2D2D2D;
     color: white; }
     html #calculator #key-7:hover, html #calculator #key-8:hover, html #calculator #key-9:hover, html #calculator #key-4:hover, html #calculator #key-5:hover, html #calculator #key-6:hover, html #calculator #key-1:hover, html #calculator #key-2:hover, html #calculator #key-3:hover, html #calculator #key-DOT:hover, html #calculator #key-0:hover {
       background-color: #666666; }
   html #calculator #key-EQL {
-    background-color: #b74e14; }
+    background-color: #C73D00; }
     html #calculator #key-EQL:hover {
       background-color: #E56119; }
   html #calculator #key-AC, html #calculator #key-PLUS, html #calculator #key-DEL, html #calculator #key-MINUS, html #calculator #key-MULTIPLY, html #calculator #key-DIVISION {
-    background-color: #000000;
+    background-color: #191919;
     color: white; }
     html #calculator #key-AC:hover, html #calculator #key-PLUS:hover, html #calculator #key-DEL:hover, html #calculator #key-MINUS:hover, html #calculator #key-MULTIPLY:hover, html #calculator #key-DIVISION:hover {
       background-color: #666666; }

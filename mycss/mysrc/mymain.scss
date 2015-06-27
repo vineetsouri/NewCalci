@@ -9,18 +9,19 @@ html {
   
   body {
     height: 100vh;
+    background-image: url("../images/bg_image.jpg");
   }
   
   #calculator {
     width: 48vmin;
     height: 84vmin;
-    background-color: black;
+    background-color: #2D2D2D;
     color: black;
-    font-family: 'Roboto Slab', serif;
+    //font-family: 'Roboto Slab', serif;
     font-weight: 200;
     
     #result {
-      background-color: #191919;
+      background-color: #0C0C0C;
       height: 16vmin;
       text-align: right;
       line-height: 16vmin;
@@ -30,7 +31,7 @@ html {
     }
     
     #preview {
-      background-color: #191919;
+      background-color: #0C0C0C;
       height:8vmin;
       text-align: right;
       line-height: 8vmin;
@@ -60,7 +61,7 @@ html {
       
       &:active, &.active {
         background-color: darken(white, 5%);
-          border-radius: 50px;
+        border-radius: 50px;
       }
     }
     
@@ -68,20 +69,20 @@ html {
       padding: 0;
     }
     #key-7,#key-8,#key-9,#key-4,#key-5,#key-6,#key-1,#key-2,#key-3,#key-DOT,#key-0{
-      background-color: #191919;//key colors
+      background-color: #2D2D2D;//key colors
       color: white;
       &:hover {
         background-color: #666666;
       }
     }
     #key-EQL{
-      background-color: darken(#E56119,10%);
+      background-color: #C73D00;
       &:hover{
         background-color: #E56119
       }
     }
     #key-AC,#key-PLUS,#key-DEL,#key-MINUS,#key-MULTIPLY,#key-DIVISION{
-      background-color: #000000;
+      background-color: #191919;
       color: white;
       &:hover {
         background-color: #666666//lighter(#000000,100%);

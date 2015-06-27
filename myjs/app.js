@@ -107,15 +107,7 @@ Calci = {
     $(document).bind('keyup', "esc", Calci.handleInputFunctionWrapper("AC"));
     $(document).bind('keyup', "backspace", Calci.handleInputFunctionWrapper("DEL"));
     $(document).bind('keyup', "return", Calci.handleInputFunctionWrapper("="));
-  }//,
-  // watchKeyPress: function() {
-  //   var keys = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '.', '+', '-', '*', '/'];
-  //   for(var i = 0; i < keys.length; i++) {
-  //     $(document).bind('keyup', keys[i], function() {
-  //       Calci.handleInput(keys[i]);
-  //     });
-  //   }
-  // }
+  }
 };
 
 $(document).ready(function() {
